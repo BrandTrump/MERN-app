@@ -41,3 +41,35 @@ header a {
   padding: 2em;
   margin: 0 auto;
 }
+
+.home {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 10em;
+}
+
+.workout-details {
+  background: #fff;
+  border-radius: 0.4em;
+  margin: 2em auto;
+  padding: 2em;
+  position: relative;
+  box-shadow: 0.2em 0.2em 0.5em rgba(0, 0, 0, 0.05);
+}
+
+.workout-details h4 {
+  margin: 0 0 1em 0;
+  font-size: 2rem;
+  color: var(--primary-color);
+}
+
+.workout-details p {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #555;
+}
+
+.workout-details span {
+  position: absolute;
+  top: 2em;
+}
