@@ -72,4 +72,48 @@ header a {
 .workout-details span {
   position: absolute;
   top: 2em;
+  right: 2em;
+  cursor: pointer;
+  background: #f1f1f1;
+  padding: 0.6em;
+  border-radius: 50%;
+  color: #333;
+}
+
+.create h3 {
+  font-size: 1.6em;
+}
+
+label,
+input {
+  display: block;
+  font-size: 1.2em;
+}
+
+input {
+  padding: 1em;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  width: 100%;
+  border: 0.1em solid #ddd;
+  border-radius: 0.4em;
+  box-sizing: border-box;
+}
+
+form button {
+  background: var(--primary-color);
+  border: 0;
+  color: #fff;
+  padding: 1em;
+  border-radius: 0.4em;
+  cursor: pointer;
+}
+
+div.error {
+  padding: 1em;
+  background: #ffefef;
+  border: 1px solid var(--error);
+  color: var(--error);
+  border-radius: 0.4em;
+  margin: 2em 0;
 }
