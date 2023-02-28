@@ -28,9 +28,8 @@ const Home = () => {
       <div className="workouts">
         {workouts.map((workout: workoutProps, id) => {
           return (
-            <div>
+            <div key={id}>
               <WorkoutDetails
-                key={id}
                 title={workout.title}
                 reps={workout.reps}
                 load={workout.load}
