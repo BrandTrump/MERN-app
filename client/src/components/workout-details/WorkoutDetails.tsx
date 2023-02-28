@@ -14,15 +14,15 @@ const WorkoutDetails: React.FC<workoutProps> = ({
   createdAt,
 }) => {
   return (
-    <div>
+    <div className="workout-details">
       <h4>{title}</h4>
-      <p>
-        <strong>reps: </strong>
-        {reps}
-      </p>
       <p>
         <strong>Load (kg): </strong>
         {load}
+      </p>
+      <p>
+        <strong>reps: </strong>
+        {reps}
       </p>
       <p>{createdAt}</p>
     </div>
