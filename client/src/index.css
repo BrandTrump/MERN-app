@@ -117,3 +117,7 @@ div.error {
   border-radius: 0.4em;
   margin: 2em 0;
 }
+
+input.error {
+  border: 1px solid var(--error);
+}
