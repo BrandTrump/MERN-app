@@ -5,6 +5,7 @@ import { useWorkoutsContext } from "../hooks/useWorkoutContext";
 
 const Home = () => {
   interface workoutProps {
+    _id: string;
     title: string;
     reps: number;
     load: number;
@@ -34,6 +35,7 @@ const Home = () => {
             return (
               <div key={id}>
                 <WorkoutDetails
+                  _id={workout._id}
                   title={workout.title}
                   reps={workout.reps}
                   load={workout.load}
