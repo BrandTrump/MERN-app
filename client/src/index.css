@@ -121,3 +121,23 @@ div.error {
 input.error {
   border: 1px solid var(--error);
 }
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+}
+
+form.signup,
+form.login {
+  max-width: 40em;
+  margin: 4em auto;
+  padding: 2em;
+  background: #fff;
+  border-radius: 0.4em;
+}
+
+form.signup h3,
+form.login h3 {
+  font-size: 1.5rem;
+}
