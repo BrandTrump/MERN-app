@@ -122,10 +122,14 @@ input.error {
   border: 1px solid var(--error);
 }
 
-nav {
+.nav-links {
   display: flex;
   align-items: center;
   gap: 2em;
+}
+
+.link {
+  font-size: 2rem;
 }
 
 nav button {
@@ -150,4 +154,13 @@ form.login {
 form.signup h3,
 form.login h3 {
   font-size: 1.5rem;
+}
+
+.logout-tab {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+}
+.logout-tab h3 {
+  font-weight: 400;
 }
